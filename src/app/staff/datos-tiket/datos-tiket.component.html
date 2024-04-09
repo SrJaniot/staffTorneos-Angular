@@ -1,0 +1,34 @@
+<div class="contenido-general">
+  <h1><span class="blue"></span>Resultados de búsqueda<span class="blue"></span></h1>
+
+  <table class="container">
+      <!-- Encabezado y cuerpo de la tabla -->
+  <thead>
+    <tr>
+      <th><h1>Nombres y Apellidos</h1></th>
+      <th><h1>Edad </h1></th>
+      <th><h1>Correo</h1></th>
+      <th><h1>Tipo de Documento</h1></th>
+      <th><h1>Número de Documento</h1></th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{nombre}}</td>
+      <td>{{edad}}</td>
+      <td>{{correo}}</td>
+      <td>{{tipo_documento}}</td>
+      <td>{{numero_documento}}</td>
+
+    </tr>
+
+  </tbody>
+
+  </table>
+
+  <div class="botones">
+      <button (click)="actualizarAsistencia()" class="aceptar">Aceptar</button>
+      <button (click)="regresar()" class="rechazar">Rechazar</button>
+  </div>
+</div>

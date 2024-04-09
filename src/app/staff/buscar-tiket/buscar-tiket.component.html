@@ -1,0 +1,16 @@
+
+
+<div class="contenido">
+    <div class="formulario">
+        <div class="texto">
+            <h1 align="center">Bienvenido</h1>
+            <h3>Inserte el código aquí</h3>
+        </div>
+        <form [formGroup]="fGroup2">
+            <input formControlName="tiket" type="text" name="codigo" id="codigo" required>
+            <div class="button-container">
+                <button (click)="enviarTiket()" class="button">Buscar</button>
+            </div>
+        </form>
+    </div>
+</div>
